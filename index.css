@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(199, 59, 246);
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+.game {
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+
+.box {
+    height: 18vh;
+    width: 18vh;
+    border: 1px solid black; 
+    font-size: 5rem;
+}
+#reset-btn{
+    border-radius: 8px;
+    padding: 10px;
+    color:white;
+    background-color: black;
+}
